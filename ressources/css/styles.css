@@ -1,0 +1,78 @@
+body{
+  background-image: url(../fond.jpg);
+  margin: 0;
+  padding: 0;
+}
+
+#banner {
+    height: 8%;
+    border-bottom: solidacceuil;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+}
+
+#menu {
+    width: 15%;
+    border-right: solid;
+    height: 100%;
+    background-color: rgba(36, 19, 12, 0.7);
+    float: left;
+    position: relative;
+}
+
+h3{
+    color: white;
+    font-size: 20px;
+}
+
+#welcome{
+  color: white;
+  font-size: 20px;
+}
+
+textarea{
+  resize: none;
+  background: transparent;
+}
+
+
+#head{
+  background-image: url(../fond.jpg);
+}
+
+table, th, td{
+  text-align: center;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+#param {
+	border-style: hidden;
+}
+
+input[type="text"]
+{
+    background: transparent;
+
+}
+
+input[type="number"]
+{
+    background: transparent;
+    width: 30%;
+}
+
+input[type="password"]
+{
+    background: transparent;
+}
+
+.without_deco{
+  text-decoration: none;
+  color: black;
+  border: none;
+}
+
